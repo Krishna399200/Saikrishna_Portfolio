@@ -23,7 +23,11 @@ import {
     jobit,
     tripguide,
     threejs,
+    niveusLogo,
+    cogniLogo,
   } from "../assets";
+
+ 
   
   export const navLinks = [
     {
@@ -46,15 +50,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "UI Design",
+      icon: figma,
     },
     {
       title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Singer",
       icon: creator,
     },
   ];
@@ -72,10 +76,10 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
@@ -117,10 +121,10 @@ import {
   const experiences = [
     {
       title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      company_name: "Cognizant Technology Solutions",
+      icon: cogniLogo,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Feb 2021 - April 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,44 +133,44 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Full Stack Web Developer",
+      company_name: "Niveus Solutions Pvt. Ltd.",
+      icon: niveusLogo,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "April 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Working with ICICI bank client from 14th April 2022 , migrating their offline banking services into online web-apps.",
+        "Developed UI of several banking products using Reactjs and Redux , delivering with highest quality",
+        "Creating backend API's using Nodejs for banking products and integrating them into frontend",
+        "Working with team members creating innovative user interface solutions and develop best in class web-apps.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // // {
+    // //   title: "Web Developer",
+    // //   company_name: "Shopify",
+    // //   icon: shopify,
+    // //   iconBg: "#383E56",
+    // //   date: "Jan 2022 - Jan 2023",
+    // //   points: [
+    // //     "Developing and maintaining web applications using React.js and other related technologies.",
+    // //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    // //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    // //     "Participating in code reviews and providing constructive feedback to other developers.",
+    // //   ],
+    // // },
+    // // {
+    // //   title: "Full stack Developer",
+    // //   company_name: "Meta",
+    // //   icon: meta,
+    // //   iconBg: "#E6DEDD",
+    // //   date: "Jan 2023 - Present",
+    // //   points: [
+    // //     "Developing and maintaining web applications using React.js and other related technologies.",
+    // //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    // //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    // //     "Participating in code reviews and providing constructive feedback to other developers.",
+    // //   ],
+    // },
   ];
   
   const testimonials = [

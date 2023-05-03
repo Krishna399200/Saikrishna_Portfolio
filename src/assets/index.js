@@ -30,6 +30,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import niveusLogo from "./company/niv_logo.jpeg"
+import cogniLogo from "./company/Cognizant_logo.png"
+import logoSk from "./logoSk.png"
+
 export {
   logo,
   backend,
@@ -59,4 +63,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  cogniLogo,
+  niveusLogo,
+  logoSk
 };
